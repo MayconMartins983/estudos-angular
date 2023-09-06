@@ -1,0 +1,8 @@
+<div>
+  <h2>Componente A</h2>
+  <input type="text" [(ngModel)]="message" placeholder="Digite uma mensagem" />
+  <button (click)="sendMessage()">Enviar</button>
+</div>
+<p>A principal diferença entre eles é que para o subject, somente elementos inscritos
+       receberão o valor que foi passado. No caso do behavior, se ele tem um valor e
+        agm se inscreve nele agora, pegamos o valor que ele ta armazenando</p>
